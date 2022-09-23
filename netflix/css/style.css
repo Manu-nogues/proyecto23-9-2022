@@ -1,0 +1,152 @@
+
+body{
+    background-color: blue;
+    margin: 0;
+}
+.container{
+    height:  100vh;
+    background-color: rgb(3, 3, 3);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    background-color: rgb(226, 119, 43);
+    gap: 2px;
+}
+#container-b1{
+    grid-column: 1 / 6;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+height: 20vh;
+}
+
+
+#container-b2{
+    background-color: rgb(204, 97, 97);
+    grid-row: 2 / 3;
+    background-image: url("https://www.themoviedb.org/t/p/w500_and_h282_face/nnUQqlVZeEGuCRx8SaoCU4XVHJN.jpg");
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+
+}
+#container-b3{
+    background-color: rgb(197, 52, 52);
+    grid-row: 2 / 3;
+    background-image: url(https://www.themoviedb.org/t/p/w500_and_h282_face/i0Y0wP8H6SRgjr6QmuwbtQbS24D.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+}
+#container-b4{
+    background-color: rgb(108, 96, 96);
+    grid-row: 2 / 3;
+    background-image: url(https://www.themoviedb.org/t/p/w500_and_h282_face/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+}
+
+#container-b5{
+    background-color: rgb(161, 6, 6);
+    grid-row: 2 / 3;
+    background-image: url(https://www.themoviedb.org/t/p/w1280/g3nzhHBDTrJ7RWhzozFTYFjvRbd.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+}
+
+#container-b6{
+    background-color: rgb(113, 102, 113);
+    grid-row: 2 / 3;
+    background-image: url(https://www.themoviedb.org/t/p/w500_and_h282_face/2k9tBql5GYH328Krj66tDT9LtFZ.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+}
+#barra{
+    background-color: rgb(7, 7, 7);
+    grid-column: 1 / 6;
+    height: 20vh;
+    margin: 0 2vh 0 2vh;
+    color: white;
+    display: flex;   
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#container-b7{
+    background-color: rgb(11, 5, 11);
+   
+    background-image: url(https://www.themoviedb.org/t/p/w500_and_h282_face/xfNHRI2f5kHGvogxLd0C5sB90L7.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh  
+}
+#container-b8{
+    background-color: rgb(37, 18, 37);
+    
+    background-image: url(https://www.themoviedb.org/t/p/w500_and_h282_face/nYla7faWqM3nLCY9arQH1DwXC84.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+}
+#container-b9{
+    background-color: rgb(232, 161, 232);
+   
+    background-image: url(https://www.themoviedb.org/t/p/w500_and_h282_face/aHUlWRhbp2OrVVgFTlB6ns86lEp.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+}
+
+#container-b10{
+    background-color: rgb(99, 0, 99);
+   
+    background-image: url(https://www.themoviedb.org/t/p/w500_and_h282_face/v0Np18yaYujbzH5oKR03opkiEZa.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+}
+#container-b11{
+    background-color: rgb(99, 0, 99);
+    
+    background-image: url(https://www.themoviedb.org/t/p/w500_and_h282_face/uMWZoc0Fbu1q0jcd0d5f5xa75p0.jpg);
+    background-size: cover;
+    margin: 0 2vh 0 2vh
+}
+
+.imagen{
+    height: 50px;
+}
+
+.icons {
+    color: rgb(255, 255, 255);
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 180vh;
+}
+.lupa{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    list-style: none;
+    width: 120vh;
+    
+
+}
+.regalo{
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+}
+.campana{
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.perfil {
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+ }
+
+ .zoom:hover{
+    transform:scale(1.2);
+    transition: 1s;
+ }
